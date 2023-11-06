@@ -4,7 +4,7 @@ const CardContent = (props) => {
 
     return(
         <Box className="concept">
-            <img src={props.content.image} alt="TODO: TITLE" />
+            <img src={props.content.image} alt={props.content.title} />
             <h2>{props.content.title} </h2>
             <p>{props.content.description}</p>
         </Box>
